@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ExternStoryboard"
-  s.version      = "0.0.1"
+  s.version      = "1.0"
   s.summary      = "Clean way to link view controllers with segues between multiple storyboards"
   
   s.description  = "Split your View Controller logic into multiple reusable Storyboards, seguing between them effortlessly with no additional code and no subclassing!"
@@ -8,9 +8,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/nobre84/ExternStoryboard"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
-  s.author             = { "Paul Malikov" => "email@address.com" }
+  s.author             = { "Rafael Nobre" => "nobre84@gmail.com" }
 
-  s.social_media_url = "http://twitter.com/Paul Malikov"
   s.platform     = :ios, '6.0'
 
   s.source       = { :git => "https://github.com/nobre84/ExternStoryboard.git", :tag => s.version.to_s }
