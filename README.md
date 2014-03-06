@@ -1,7 +1,7 @@
-ExternStoryboard
+RNExternStoryboard
 ================
 
-ExternStoryboard is a clean way to link view controllers with segues between multiple storyboards.
+RNExternStoryboard is a clean way to link view controllers with segues between multiple storyboards.
 
 Split your View Controller logic into multiple reusable Storyboards, seguing between them effortlessly with no additional code and no subclassing!
 
@@ -16,7 +16,7 @@ Installation
 
 The recommended install method is via [CocoaPods](http://cocoapods.org/) - its easy!
 
-`pod 'ExternStoryboard'`
+`pod 'RNExternStoryboard'`
 
 
 
