@@ -7,21 +7,20 @@ Split your View Controller logic into multiple reusable Storyboards, seguing bet
 
 This page includes the Library files necessary for integration in your app, and a demo app that demonstrates how to link view controllers with segues between multiple storyboards.
 
-Inspired by [RBStoryboardLink][1].
+Based on work by [Paul Malikov](https://github.com/vokilam/ExternStoryboard).
 
-[1]:https://github.com/rob-brown/RBStoryboardLink
+Inspired by [RBStoryboardLink](https://github.com/rob-brown/RBStoryboardLink).
 
 Installation
 ================
 
-Preferred install method via [CocoaPods](http://cocoapods.org/) - its easy!
+The recommended install method is via [CocoaPods](http://cocoapods.org/) - its easy!
 
 `pod 'ExternStoryboard'`
 
 
 
-Otherwise you can clone the repository and manually copy the dependencies:
-- Sample/Pods/ExternStoryboard ([this](https://github.com/nobre84/ExternStoryboard))
+Otherwise you can clone the repository and manually copy the Library folder and the following dependencies into your project:
 - Sample/Pods/JRSwizzle ([learn more](https://github.com/rentzsch/jrswizzle))
 - Sample/Pods/ObjcAssociatedObjectHelpers ([learn more](https://github.com/itsthejb/ObjcAssociatedObjectHelpers))
 
