@@ -4,8 +4,8 @@
 //
 //  Created by Rafael Nobre on 3/5/14.
 //
-//  Based on work by Paul Malikov
-//  Copyright (c) 2013 Paul Malikov. All rights reserved.
+//  Original work Copyright (c) 2013 Paul Malikov. All rights reserved.
+//  Modified work Copyright (c) 2014 Rafael Nobre. All rights reserved.
 //
 // https://github.com/nobre84/ExternStoryboard
 //
