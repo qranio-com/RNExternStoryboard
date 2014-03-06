@@ -1,8 +1,8 @@
 //
-//  UINavigationController+ExternStoryboard.h
-//  ExternStoryboard
+//  RNExternStoryboardTests.m
+//  RNExternStoryboardTests
 //
-//  Created by Rafael Nobre on 3/5/14.
+//  Created by Paul Malikov on 10/31/13.
 //
 //  Original work Copyright (c) 2013 Paul Malikov. All rights reserved.
 //  Modified work Copyright (c) 2014 Rafael Nobre. All rights reserved.
@@ -26,9 +26,31 @@
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
+//
 
-#import <UIKit/UIKit.h>
+#import <XCTest/XCTest.h>
 
-@interface UINavigationController (ExternStoryboard)
+@interface RNExternStoryboardTests : XCTestCase
+
+@end
+
+@implementation RNExternStoryboardTests
+
+- (void)setUp
+{
+    [super setUp];
+    // Put setup code here. This method is called before the invocation of each test method in the class.
+}
+
+- (void)tearDown
+{
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    [super tearDown];
+}
+
+- (void)testExample
+{
+    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+}
 
 @end

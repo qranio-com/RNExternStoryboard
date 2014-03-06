@@ -1,6 +1,6 @@
 //
 //  RNExternPushSegue.h
-//  ExternStoryboard
+//  RNExternStoryboard
 //
 //  Created by Rafael Nobre on 3/5/14.
 //

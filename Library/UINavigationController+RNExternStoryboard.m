@@ -1,6 +1,6 @@
 //
-//  UIViewController+ExternViewController.h
-//  ExternStoryboard
+//  UINavigationController+RNExternStoryboard.m
+//  RNExternStoryboard
 //
 //  Created by Rafael Nobre on 3/5/14.
 //
@@ -27,11 +27,32 @@
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import <UIKit/UIKit.h>
+#import "UINavigationController+RNExternStoryboard.h"
+#import "UIViewController+RNExternStoryboard.h"
+#import <JRSwizzle.h>
 
-@interface UIViewController (ExternViewController)
+@implementation UINavigationController (RNExternStoryboard)
 
-@property (strong, nonatomic) NSString *storyboardName;
-@property (strong, nonatomic) NSString *sceneIdentifier;
++(void)load {
+    NSError *error;
+    if (![self jr_swizzleMethod:@selector(awakeFromNib) withMethod:@selector(awakeFromNibReplacement) error:&error]) {
+        NSLog(@"Error swizzling UINavigationController awakeFromNib: %@", [error localizedDescription]);
+    }
+}
+
+-(void)awakeFromNibReplacement {
+    //call original implementation
+    [self awakeFromNibReplacement];
+    
+    if (self.storyboardName) {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:self.storyboardName bundle:nil];
+        UIViewController *vc = self.sceneIdentifier
+        ? [storyboard instantiateViewControllerWithIdentifier:self.sceneIdentifier]
+        : [storyboard instantiateInitialViewController];
+    
+        self.viewControllers = @[vc];
+    }
+}
+
 
 @end

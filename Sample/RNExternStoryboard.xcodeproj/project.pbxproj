@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		001E311F18C7BCCB003F946A /* RNExternModalSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E311818C7BCCB003F946A /* RNExternModalSegue.m */; };
 		001E312018C7BCCB003F946A /* RNExternPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E311A18C7BCCB003F946A /* RNExternPushSegue.m */; };
-		001E312118C7BCCB003F946A /* UINavigationController+ExternStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E311C18C7BCCB003F946A /* UINavigationController+ExternStoryboard.m */; };
-		001E312218C7BCCB003F946A /* UIViewController+ExternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E311E18C7BCCB003F946A /* UIViewController+ExternViewController.m */; };
+		001E312118C7BCCB003F946A /* UINavigationController+RNExternStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E311C18C7BCCB003F946A /* UINavigationController+RNExternStoryboard.m */; };
+		001E312218C7BCCB003F946A /* UIViewController+RNExternStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E311E18C7BCCB003F946A /* UIViewController+RNExternStoryboard.m */; };
 		001E312518C7BEAE003F946A /* RNExternStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E312418C7BEAE003F946A /* RNExternStoryboardSegue.m */; };
 		0041FE7118C6C42300720D02 /* TabOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0041FE6E18C6C42300720D02 /* TabOneViewController.m */; };
 		0041FE7218C6C42300720D02 /* TabTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0041FE7018C6C42300720D02 /* TabTwoViewController.m */; };
 		0041FE7618C6C43600720D02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0041FE7418C6C43600720D02 /* AppDelegate.m */; };
-		0041FE7B18C6C44300720D02 /* ExternStoryboard-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0041FE7818C6C44300720D02 /* ExternStoryboard-Info.plist */; };
 		0041FE7C18C6C44300720D02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0041FE7A18C6C44300720D02 /* main.m */; };
 		0041FE7E18C6C44F00720D02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0041FE7D18C6C44F00720D02 /* Main.storyboard */; };
 		0041FE8218C6C45C00720D02 /* Extern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0041FE7F18C6C45C00720D02 /* Extern.storyboard */; };
 		0041FE8318C6C45C00720D02 /* TabOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0041FE8018C6C45C00720D02 /* TabOne.storyboard */; };
 		0041FE8418C6C45C00720D02 /* TabTwo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0041FE8118C6C45C00720D02 /* TabTwo.storyboard */; };
+		00A3A98218C8D29B0049FA17 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A3A98118C8D29B0049FA17 /* Default-568h@2x.png */; };
 		66F3AD2218224E9700DBD35A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F3AD2118224E9700DBD35A /* Foundation.framework */; };
 		66F3AD2418224E9700DBD35A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F3AD2318224E9700DBD35A /* CoreGraphics.framework */; };
 		66F3AD2618224E9700DBD35A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F3AD2518224E9700DBD35A /* UIKit.framework */; };
@@ -28,7 +28,7 @@
 		66F3AD3C18224E9700DBD35A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F3AD2118224E9700DBD35A /* Foundation.framework */; };
 		66F3AD3D18224E9700DBD35A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F3AD2518224E9700DBD35A /* UIKit.framework */; };
 		66F3AD4518224E9700DBD35A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66F3AD4318224E9700DBD35A /* InfoPlist.strings */; };
-		66F3AD4718224E9700DBD35A /* ExternStoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F3AD4618224E9700DBD35A /* ExternStoryboardTests.m */; };
+		66F3AD4718224E9700DBD35A /* RNExternStoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F3AD4618224E9700DBD35A /* RNExternStoryboardTests.m */; };
 		B7EF15595F5E4EE3A86868E4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7048DC0F88554019BD68DB77 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -47,10 +47,10 @@
 		001E311818C7BCCB003F946A /* RNExternModalSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNExternModalSegue.m; sourceTree = "<group>"; };
 		001E311918C7BCCB003F946A /* RNExternPushSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNExternPushSegue.h; sourceTree = "<group>"; };
 		001E311A18C7BCCB003F946A /* RNExternPushSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNExternPushSegue.m; sourceTree = "<group>"; };
-		001E311B18C7BCCB003F946A /* UINavigationController+ExternStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ExternStoryboard.h"; sourceTree = "<group>"; };
-		001E311C18C7BCCB003F946A /* UINavigationController+ExternStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ExternStoryboard.m"; sourceTree = "<group>"; };
-		001E311D18C7BCCB003F946A /* UIViewController+ExternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ExternViewController.h"; sourceTree = "<group>"; };
-		001E311E18C7BCCB003F946A /* UIViewController+ExternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ExternViewController.m"; sourceTree = "<group>"; };
+		001E311B18C7BCCB003F946A /* UINavigationController+RNExternStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+RNExternStoryboard.h"; sourceTree = "<group>"; };
+		001E311C18C7BCCB003F946A /* UINavigationController+RNExternStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+RNExternStoryboard.m"; sourceTree = "<group>"; };
+		001E311D18C7BCCB003F946A /* UIViewController+RNExternStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RNExternStoryboard.h"; sourceTree = "<group>"; };
+		001E311E18C7BCCB003F946A /* UIViewController+RNExternStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RNExternStoryboard.m"; sourceTree = "<group>"; };
 		001E312318C7BEAE003F946A /* RNExternStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNExternStoryboardSegue.h; sourceTree = "<group>"; };
 		001E312418C7BEAE003F946A /* RNExternStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNExternStoryboardSegue.m; sourceTree = "<group>"; };
 		0041FE6D18C6C42300720D02 /* TabOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabOneViewController.h; sourceTree = "<group>"; };
@@ -59,23 +59,24 @@
 		0041FE7018C6C42300720D02 /* TabTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabTwoViewController.m; sourceTree = "<group>"; };
 		0041FE7318C6C43600720D02 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0041FE7418C6C43600720D02 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0041FE7818C6C44300720D02 /* ExternStoryboard-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ExternStoryboard-Info.plist"; sourceTree = "<group>"; };
-		0041FE7918C6C44300720D02 /* ExternStoryboard-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ExternStoryboard-Prefix.pch"; sourceTree = "<group>"; };
+		0041FE7818C6C44300720D02 /* RNExternStoryboard-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RNExternStoryboard-Info.plist"; sourceTree = "<group>"; };
+		0041FE7918C6C44300720D02 /* RNExternStoryboard-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNExternStoryboard-Prefix.pch"; sourceTree = "<group>"; };
 		0041FE7A18C6C44300720D02 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0041FE7D18C6C44F00720D02 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0041FE7F18C6C45C00720D02 /* Extern.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Extern.storyboard; sourceTree = "<group>"; };
 		0041FE8018C6C45C00720D02 /* TabOne.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabOne.storyboard; sourceTree = "<group>"; };
 		0041FE8118C6C45C00720D02 /* TabTwo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabTwo.storyboard; sourceTree = "<group>"; };
+		00A3A98118C8D29B0049FA17 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3CD6A9A4D96045C993157812 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		66F3AD1E18224E9700DBD35A /* ExternStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExternStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F3AD1E18224E9700DBD35A /* RNExternStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNExternStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F3AD2118224E9700DBD35A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66F3AD2318224E9700DBD35A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		66F3AD2518224E9700DBD35A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		66F3AD3918224E9700DBD35A /* ExternStoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExternStoryboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F3AD3918224E9700DBD35A /* RNExternStoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNExternStoryboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F3AD3A18224E9700DBD35A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		66F3AD4218224E9700DBD35A /* ExternStoryboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExternStoryboardTests-Info.plist"; sourceTree = "<group>"; };
+		66F3AD4218224E9700DBD35A /* RNExternStoryboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RNExternStoryboardTests-Info.plist"; sourceTree = "<group>"; };
 		66F3AD4418224E9700DBD35A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		66F3AD4618224E9700DBD35A /* ExternStoryboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExternStoryboardTests.m; sourceTree = "<group>"; };
+		66F3AD4618224E9700DBD35A /* RNExternStoryboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNExternStoryboardTests.m; sourceTree = "<group>"; };
 		7048DC0F88554019BD68DB77 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -130,10 +131,10 @@
 		001E312718C7BEBD003F946A /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				001E311B18C7BCCB003F946A /* UINavigationController+ExternStoryboard.h */,
-				001E311C18C7BCCB003F946A /* UINavigationController+ExternStoryboard.m */,
-				001E311D18C7BCCB003F946A /* UIViewController+ExternViewController.h */,
-				001E311E18C7BCCB003F946A /* UIViewController+ExternViewController.m */,
+				001E311B18C7BCCB003F946A /* UINavigationController+RNExternStoryboard.h */,
+				001E311C18C7BCCB003F946A /* UINavigationController+RNExternStoryboard.m */,
+				001E311D18C7BCCB003F946A /* UIViewController+RNExternStoryboard.h */,
+				001E311E18C7BCCB003F946A /* UIViewController+RNExternStoryboard.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -153,8 +154,9 @@
 		0041FE6818C6BB8E00720D02 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0041FE7818C6C44300720D02 /* ExternStoryboard-Info.plist */,
-				0041FE7918C6C44300720D02 /* ExternStoryboard-Prefix.pch */,
+				00A3A98118C8D29B0049FA17 /* Default-568h@2x.png */,
+				0041FE7818C6C44300720D02 /* RNExternStoryboard-Info.plist */,
+				0041FE7918C6C44300720D02 /* RNExternStoryboard-Prefix.pch */,
 				0041FE7A18C6C44300720D02 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -197,8 +199,8 @@
 		66F3AD1F18224E9700DBD35A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				66F3AD1E18224E9700DBD35A /* ExternStoryboard.app */,
-				66F3AD3918224E9700DBD35A /* ExternStoryboardTests.xctest */,
+				66F3AD1E18224E9700DBD35A /* RNExternStoryboard.app */,
+				66F3AD3918224E9700DBD35A /* RNExternStoryboardTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -218,7 +220,7 @@
 		66F3AD4018224E9700DBD35A /* ExternStoryboardTests */ = {
 			isa = PBXGroup;
 			children = (
-				66F3AD4618224E9700DBD35A /* ExternStoryboardTests.m */,
+				66F3AD4618224E9700DBD35A /* RNExternStoryboardTests.m */,
 				66F3AD4118224E9700DBD35A /* Supporting Files */,
 			);
 			path = ExternStoryboardTests;
@@ -227,7 +229,7 @@
 		66F3AD4118224E9700DBD35A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				66F3AD4218224E9700DBD35A /* ExternStoryboardTests-Info.plist */,
+				66F3AD4218224E9700DBD35A /* RNExternStoryboardTests-Info.plist */,
 				66F3AD4318224E9700DBD35A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -236,9 +238,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		66F3AD1D18224E9700DBD35A /* ExternStoryboard */ = {
+		66F3AD1D18224E9700DBD35A /* RNExternStoryboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66F3AD4A18224E9700DBD35A /* Build configuration list for PBXNativeTarget "ExternStoryboard" */;
+			buildConfigurationList = 66F3AD4A18224E9700DBD35A /* Build configuration list for PBXNativeTarget "RNExternStoryboard" */;
 			buildPhases = (
 				D848B18975F744A08D4BDB37 /* Check Pods Manifest.lock */,
 				66F3AD1A18224E9700DBD35A /* Sources */,
@@ -250,14 +252,14 @@
 			);
 			dependencies = (
 			);
-			name = ExternStoryboard;
+			name = RNExternStoryboard;
 			productName = ExternStoryboard;
-			productReference = 66F3AD1E18224E9700DBD35A /* ExternStoryboard.app */;
+			productReference = 66F3AD1E18224E9700DBD35A /* RNExternStoryboard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		66F3AD3818224E9700DBD35A /* ExternStoryboardTests */ = {
+		66F3AD3818224E9700DBD35A /* RNExternStoryboardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66F3AD4D18224E9700DBD35A /* Build configuration list for PBXNativeTarget "ExternStoryboardTests" */;
+			buildConfigurationList = 66F3AD4D18224E9700DBD35A /* Build configuration list for PBXNativeTarget "RNExternStoryboardTests" */;
 			buildPhases = (
 				66F3AD3518224E9700DBD35A /* Sources */,
 				66F3AD3618224E9700DBD35A /* Frameworks */,
@@ -268,9 +270,9 @@
 			dependencies = (
 				66F3AD3F18224E9700DBD35A /* PBXTargetDependency */,
 			);
-			name = ExternStoryboardTests;
+			name = RNExternStoryboardTests;
 			productName = ExternStoryboardTests;
-			productReference = 66F3AD3918224E9700DBD35A /* ExternStoryboardTests.xctest */;
+			productReference = 66F3AD3918224E9700DBD35A /* RNExternStoryboardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -287,7 +289,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 66F3AD1918224E9700DBD35A /* Build configuration list for PBXProject "ExternStoryboard" */;
+			buildConfigurationList = 66F3AD1918224E9700DBD35A /* Build configuration list for PBXProject "RNExternStoryboard" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -299,8 +301,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				66F3AD1D18224E9700DBD35A /* ExternStoryboard */,
-				66F3AD3818224E9700DBD35A /* ExternStoryboardTests */,
+				66F3AD1D18224E9700DBD35A /* RNExternStoryboard */,
+				66F3AD3818224E9700DBD35A /* RNExternStoryboardTests */,
 			);
 		};
 /* End PBXProject section */
@@ -314,7 +316,7 @@
 				0041FE8418C6C45C00720D02 /* TabTwo.storyboard in Resources */,
 				0041FE8318C6C45C00720D02 /* TabOne.storyboard in Resources */,
 				0041FE7E18C6C44F00720D02 /* Main.storyboard in Resources */,
-				0041FE7B18C6C44300720D02 /* ExternStoryboard-Info.plist in Resources */,
+				00A3A98218C8D29B0049FA17 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,8 +375,8 @@
 				001E312018C7BCCB003F946A /* RNExternPushSegue.m in Sources */,
 				0041FE7218C6C42300720D02 /* TabTwoViewController.m in Sources */,
 				0041FE7618C6C43600720D02 /* AppDelegate.m in Sources */,
-				001E312118C7BCCB003F946A /* UINavigationController+ExternStoryboard.m in Sources */,
-				001E312218C7BCCB003F946A /* UIViewController+ExternViewController.m in Sources */,
+				001E312118C7BCCB003F946A /* UINavigationController+RNExternStoryboard.m in Sources */,
+				001E312218C7BCCB003F946A /* UIViewController+RNExternStoryboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66F3AD4718224E9700DBD35A /* ExternStoryboardTests.m in Sources */,
+				66F3AD4718224E9700DBD35A /* RNExternStoryboardTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +393,7 @@
 /* Begin PBXTargetDependency section */
 		66F3AD3F18224E9700DBD35A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 66F3AD1D18224E9700DBD35A /* ExternStoryboard */;
+			target = 66F3AD1D18224E9700DBD35A /* RNExternStoryboard */;
 			targetProxy = 66F3AD3E18224E9700DBD35A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -485,12 +487,11 @@
 			baseConfigurationReference = 3CD6A9A4D96045C993157812 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ExternStoryboard-Prefix.pch";
-				INFOPLIST_FILE = "ExternStoryboard-Info.plist";
+				GCC_PREFIX_HEADER = "RNExternStoryboard-Prefix.pch";
+				INFOPLIST_FILE = "RNExternStoryboard-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RNExternStoryboard;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -500,12 +501,11 @@
 			baseConfigurationReference = 3CD6A9A4D96045C993157812 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ExternStoryboard-Prefix.pch";
-				INFOPLIST_FILE = "ExternStoryboard-Info.plist";
+				GCC_PREFIX_HEADER = "RNExternStoryboard-Prefix.pch";
+				INFOPLIST_FILE = "RNExternStoryboard-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RNExternStoryboard;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -526,8 +526,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ExternStoryboardTests/ExternStoryboardTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ExternStoryboardTests/RNExternStoryboardTests-Info.plist";
+				PRODUCT_NAME = RNExternStoryboardTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -545,8 +545,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ExternStoryboard/ExternStoryboard-Prefix.pch";
-				INFOPLIST_FILE = "ExternStoryboardTests/ExternStoryboardTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ExternStoryboardTests/RNExternStoryboardTests-Info.plist";
+				PRODUCT_NAME = RNExternStoryboardTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -555,7 +555,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		66F3AD1918224E9700DBD35A /* Build configuration list for PBXProject "ExternStoryboard" */ = {
+		66F3AD1918224E9700DBD35A /* Build configuration list for PBXProject "RNExternStoryboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66F3AD4818224E9700DBD35A /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66F3AD4A18224E9700DBD35A /* Build configuration list for PBXNativeTarget "ExternStoryboard" */ = {
+		66F3AD4A18224E9700DBD35A /* Build configuration list for PBXNativeTarget "RNExternStoryboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66F3AD4B18224E9700DBD35A /* Debug */,
@@ -573,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66F3AD4D18224E9700DBD35A /* Build configuration list for PBXNativeTarget "ExternStoryboardTests" */ = {
+		66F3AD4D18224E9700DBD35A /* Build configuration list for PBXNativeTarget "RNExternStoryboardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66F3AD4E18224E9700DBD35A /* Debug */,

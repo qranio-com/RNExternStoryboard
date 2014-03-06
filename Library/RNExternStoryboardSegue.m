@@ -1,6 +1,6 @@
 //
 //  RNExternStoryboardSegue.m
-//  ExternStoryboard
+//  RNExternStoryboard
 //
 //  Created by Rafael Nobre on 3/5/14.
 //
@@ -28,7 +28,7 @@
 //
 
 #import "RNExternStoryboardSegue.h"
-#import "UIViewController+ExternViewController.h"
+#import "UIViewController+RNExternStoryboard.h"
 
 @implementation RNExternStoryboardSegue
 
