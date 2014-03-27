@@ -28,8 +28,21 @@
 //
 
 #import "RNExternModalSegue.h"
+#import "UIViewController+RNExternStoryboard.h"
+#import "UIStoryboard+DeviceSpecificStoryboard.h"
 
 @implementation RNExternModalSegue
+
+- (id)initWithIdentifier:(NSString *)identifier source:(UIViewController *)source destination:(UIViewController *)destination {
+    NSAssert(destination.storyboardName, @"storyboardName is required");
+    
+    UIStoryboard *storyboard = [UIStoryboard deviceSpecificStoryboardWithName:destination.storyboardName];
+    UIViewController *vc = destination.sceneIdentifier
+    ? [storyboard instantiateViewControllerWithIdentifier:destination.sceneIdentifier]
+    : [storyboard instantiateInitialViewController];
+    
+    return [super initWithIdentifier:identifier source:source destination:vc];
+}
 
 - (void)perform {
     [self.sourceViewController presentViewController:self.destinationViewController animated:YES completion:nil];

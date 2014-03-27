@@ -28,8 +28,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RNExternStoryboardSegue.h"
 
-@interface RNExternPushSegue : RNExternStoryboardSegue
+@interface RNExternPushSegue : UIStoryboardSegue
 
 @end

@@ -11,7 +11,6 @@
 		001E312018C7BCCB003F946A /* RNExternPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E311A18C7BCCB003F946A /* RNExternPushSegue.m */; };
 		001E312118C7BCCB003F946A /* UINavigationController+RNExternStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E311C18C7BCCB003F946A /* UINavigationController+RNExternStoryboard.m */; };
 		001E312218C7BCCB003F946A /* UIViewController+RNExternStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E311E18C7BCCB003F946A /* UIViewController+RNExternStoryboard.m */; };
-		001E312518C7BEAE003F946A /* RNExternStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E312418C7BEAE003F946A /* RNExternStoryboardSegue.m */; };
 		0041FE7118C6C42300720D02 /* TabOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0041FE6E18C6C42300720D02 /* TabOneViewController.m */; };
 		0041FE7218C6C42300720D02 /* TabTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0041FE7018C6C42300720D02 /* TabTwoViewController.m */; };
 		0041FE7618C6C43600720D02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0041FE7418C6C43600720D02 /* AppDelegate.m */; };
@@ -20,6 +19,7 @@
 		0041FE8218C6C45C00720D02 /* Extern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0041FE7F18C6C45C00720D02 /* Extern.storyboard */; };
 		0041FE8318C6C45C00720D02 /* TabOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0041FE8018C6C45C00720D02 /* TabOne.storyboard */; };
 		0041FE8418C6C45C00720D02 /* TabTwo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0041FE8118C6C45C00720D02 /* TabTwo.storyboard */; };
+		008BC81318E4BF6C00F82674 /* UIStoryboard+DeviceSpecificStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 008BC81218E4BF6C00F82674 /* UIStoryboard+DeviceSpecificStoryboard.m */; };
 		00A3A98218C8D29B0049FA17 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A3A98118C8D29B0049FA17 /* Default-568h@2x.png */; };
 		66F3AD2218224E9700DBD35A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F3AD2118224E9700DBD35A /* Foundation.framework */; };
 		66F3AD2418224E9700DBD35A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F3AD2318224E9700DBD35A /* CoreGraphics.framework */; };
@@ -51,8 +51,6 @@
 		001E311C18C7BCCB003F946A /* UINavigationController+RNExternStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+RNExternStoryboard.m"; sourceTree = "<group>"; };
 		001E311D18C7BCCB003F946A /* UIViewController+RNExternStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RNExternStoryboard.h"; sourceTree = "<group>"; };
 		001E311E18C7BCCB003F946A /* UIViewController+RNExternStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RNExternStoryboard.m"; sourceTree = "<group>"; };
-		001E312318C7BEAE003F946A /* RNExternStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNExternStoryboardSegue.h; sourceTree = "<group>"; };
-		001E312418C7BEAE003F946A /* RNExternStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNExternStoryboardSegue.m; sourceTree = "<group>"; };
 		0041FE6D18C6C42300720D02 /* TabOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabOneViewController.h; sourceTree = "<group>"; };
 		0041FE6E18C6C42300720D02 /* TabOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabOneViewController.m; sourceTree = "<group>"; };
 		0041FE6F18C6C42300720D02 /* TabTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabTwoViewController.h; sourceTree = "<group>"; };
@@ -66,6 +64,8 @@
 		0041FE7F18C6C45C00720D02 /* Extern.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Extern.storyboard; sourceTree = "<group>"; };
 		0041FE8018C6C45C00720D02 /* TabOne.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabOne.storyboard; sourceTree = "<group>"; };
 		0041FE8118C6C45C00720D02 /* TabTwo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabTwo.storyboard; sourceTree = "<group>"; };
+		008BC81118E4BF6C00F82674 /* UIStoryboard+DeviceSpecificStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+DeviceSpecificStoryboard.h"; sourceTree = "<group>"; };
+		008BC81218E4BF6C00F82674 /* UIStoryboard+DeviceSpecificStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+DeviceSpecificStoryboard.m"; sourceTree = "<group>"; };
 		00A3A98118C8D29B0049FA17 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3CD6A9A4D96045C993157812 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		66F3AD1E18224E9700DBD35A /* RNExternStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNExternStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,8 +122,6 @@
 				001E311818C7BCCB003F946A /* RNExternModalSegue.m */,
 				001E311918C7BCCB003F946A /* RNExternPushSegue.h */,
 				001E311A18C7BCCB003F946A /* RNExternPushSegue.m */,
-				001E312318C7BEAE003F946A /* RNExternStoryboardSegue.h */,
-				001E312418C7BEAE003F946A /* RNExternStoryboardSegue.m */,
 			);
 			name = Segues;
 			sourceTree = "<group>";
@@ -135,6 +133,8 @@
 				001E311C18C7BCCB003F946A /* UINavigationController+RNExternStoryboard.m */,
 				001E311D18C7BCCB003F946A /* UIViewController+RNExternStoryboard.h */,
 				001E311E18C7BCCB003F946A /* UIViewController+RNExternStoryboard.m */,
+				008BC81118E4BF6C00F82674 /* UIStoryboard+DeviceSpecificStoryboard.h */,
+				008BC81218E4BF6C00F82674 /* UIStoryboard+DeviceSpecificStoryboard.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -370,13 +370,13 @@
 			files = (
 				001E311F18C7BCCB003F946A /* RNExternModalSegue.m in Sources */,
 				0041FE7C18C6C44300720D02 /* main.m in Sources */,
-				001E312518C7BEAE003F946A /* RNExternStoryboardSegue.m in Sources */,
 				0041FE7118C6C42300720D02 /* TabOneViewController.m in Sources */,
 				001E312018C7BCCB003F946A /* RNExternPushSegue.m in Sources */,
 				0041FE7218C6C42300720D02 /* TabTwoViewController.m in Sources */,
 				0041FE7618C6C43600720D02 /* AppDelegate.m in Sources */,
 				001E312118C7BCCB003F946A /* UINavigationController+RNExternStoryboard.m in Sources */,
 				001E312218C7BCCB003F946A /* UIViewController+RNExternStoryboard.m in Sources */,
+				008BC81318E4BF6C00F82674 /* UIStoryboard+DeviceSpecificStoryboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

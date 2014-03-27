@@ -30,6 +30,7 @@
 #import "UINavigationController+RNExternStoryboard.h"
 #import "UIViewController+RNExternStoryboard.h"
 #import <JRSwizzle.h>
+#import "UIStoryboard+DeviceSpecificStoryboard.h"
 
 @implementation UINavigationController (RNExternStoryboard)
 
@@ -45,7 +46,7 @@
     [self awakeFromNibReplacement];
     
     if (self.storyboardName) {
-        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:self.storyboardName bundle:nil];
+        UIStoryboard *storyboard = [UIStoryboard deviceSpecificStoryboardWithName:self.storyboardName];
         UIViewController *vc = self.sceneIdentifier
         ? [storyboard instantiateViewControllerWithIdentifier:self.sceneIdentifier]
         : [storyboard instantiateInitialViewController];
