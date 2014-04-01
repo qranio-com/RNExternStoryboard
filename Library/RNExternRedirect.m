@@ -1,8 +1,8 @@
 //
-//  UIStoryboard+DeviceSpecificStoryboard.h
+//  RNExternRedirect.m
 //  RNExternStoryboard
 //
-//  Created by Rafael Nobre on 27/03/14.
+//  Created by Rafael Nobre on 01/04/14.
 //  Copyright (c) 2014 Rafael Nobre. All rights reserved.
 //
 // https://github.com/nobre84/ExternStoryboard
@@ -25,15 +25,19 @@
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import <UIKit/UIKit.h>
+#import "RNExternRedirect.h"
+#import "UIViewController+RNExternStoryboard.h"
+#import "UIStoryboard+DeviceSpecificStoryboard.h"
 
-@interface UIStoryboard (DeviceSpecificStoryboard)
+@implementation RNExternRedirect
 
-/**
- *  Loads a Storyboard for either iPhone or iPad (-iPad sufix)
- *  @param sbName name of the storyboard to load
- *  @return UIStoryboard loaded
- */
-+ (UIStoryboard*)deviceSpecificStoryboardWithName:(NSString*)sbName;
++ (UIViewController*)redirectFromViewController:(UIViewController *)destination {
+    NSAssert(destination.storyboardName, @"storyboardName is required");
+    
+    UIStoryboard *storyboard = [UIStoryboard deviceSpecificStoryboardWithName:destination.storyboardName];
+    return destination.sceneIdentifier
+    ? [storyboard instantiateViewControllerWithIdentifier:destination.sceneIdentifier]
+    : [storyboard instantiateInitialViewController];
+}
 
 @end

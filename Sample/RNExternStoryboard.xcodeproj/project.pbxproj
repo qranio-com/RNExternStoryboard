@@ -11,6 +11,9 @@
 		001E312018C7BCCB003F946A /* RNExternPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E311A18C7BCCB003F946A /* RNExternPushSegue.m */; };
 		001E312118C7BCCB003F946A /* UINavigationController+RNExternStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E311C18C7BCCB003F946A /* UINavigationController+RNExternStoryboard.m */; };
 		001E312218C7BCCB003F946A /* UIViewController+RNExternStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E311E18C7BCCB003F946A /* UIViewController+RNExternStoryboard.m */; };
+		003B639718EAF3B10061A041 /* RNPushOrReplaceSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B639618EAF3B10061A041 /* RNPushOrReplaceSegue.m */; };
+		003B639A18EAF43D0061A041 /* RNExternPushOrReplaceSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B639918EAF43D0061A041 /* RNExternPushOrReplaceSegue.m */; };
+		003B639E18EAF4CD0061A041 /* RNExternRedirect.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B639D18EAF4CD0061A041 /* RNExternRedirect.m */; };
 		0041FE7118C6C42300720D02 /* TabOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0041FE6E18C6C42300720D02 /* TabOneViewController.m */; };
 		0041FE7218C6C42300720D02 /* TabTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0041FE7018C6C42300720D02 /* TabTwoViewController.m */; };
 		0041FE7618C6C43600720D02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0041FE7418C6C43600720D02 /* AppDelegate.m */; };
@@ -51,6 +54,12 @@
 		001E311C18C7BCCB003F946A /* UINavigationController+RNExternStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+RNExternStoryboard.m"; sourceTree = "<group>"; };
 		001E311D18C7BCCB003F946A /* UIViewController+RNExternStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RNExternStoryboard.h"; sourceTree = "<group>"; };
 		001E311E18C7BCCB003F946A /* UIViewController+RNExternStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RNExternStoryboard.m"; sourceTree = "<group>"; };
+		003B639518EAF3B10061A041 /* RNPushOrReplaceSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPushOrReplaceSegue.h; sourceTree = "<group>"; };
+		003B639618EAF3B10061A041 /* RNPushOrReplaceSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNPushOrReplaceSegue.m; sourceTree = "<group>"; };
+		003B639818EAF43D0061A041 /* RNExternPushOrReplaceSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNExternPushOrReplaceSegue.h; sourceTree = "<group>"; };
+		003B639918EAF43D0061A041 /* RNExternPushOrReplaceSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNExternPushOrReplaceSegue.m; sourceTree = "<group>"; };
+		003B639C18EAF4CD0061A041 /* RNExternRedirect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNExternRedirect.h; sourceTree = "<group>"; };
+		003B639D18EAF4CD0061A041 /* RNExternRedirect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNExternRedirect.m; sourceTree = "<group>"; };
 		0041FE6D18C6C42300720D02 /* TabOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabOneViewController.h; sourceTree = "<group>"; };
 		0041FE6E18C6C42300720D02 /* TabOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabOneViewController.m; sourceTree = "<group>"; };
 		0041FE6F18C6C42300720D02 /* TabTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabTwoViewController.h; sourceTree = "<group>"; };
@@ -108,6 +117,7 @@
 		001E311618C7BCCB003F946A /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				003B639B18EAF49F0061A041 /* Redirection */,
 				001E312718C7BEBD003F946A /* Categories */,
 				001E312618C7BEB3003F946A /* Segues */,
 			);
@@ -122,6 +132,10 @@
 				001E311818C7BCCB003F946A /* RNExternModalSegue.m */,
 				001E311918C7BCCB003F946A /* RNExternPushSegue.h */,
 				001E311A18C7BCCB003F946A /* RNExternPushSegue.m */,
+				003B639518EAF3B10061A041 /* RNPushOrReplaceSegue.h */,
+				003B639618EAF3B10061A041 /* RNPushOrReplaceSegue.m */,
+				003B639818EAF43D0061A041 /* RNExternPushOrReplaceSegue.h */,
+				003B639918EAF43D0061A041 /* RNExternPushOrReplaceSegue.m */,
 			);
 			name = Segues;
 			sourceTree = "<group>";
@@ -137,6 +151,15 @@
 				008BC81218E4BF6C00F82674 /* UIStoryboard+DeviceSpecificStoryboard.m */,
 			);
 			name = Categories;
+			sourceTree = "<group>";
+		};
+		003B639B18EAF49F0061A041 /* Redirection */ = {
+			isa = PBXGroup;
+			children = (
+				003B639C18EAF4CD0061A041 /* RNExternRedirect.h */,
+				003B639D18EAF4CD0061A041 /* RNExternRedirect.m */,
+			);
+			name = Redirection;
 			sourceTree = "<group>";
 		};
 		0041FE4818C6BB5100720D02 /* Sample */ = {
@@ -282,7 +305,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = "Paul Malikov";
+				ORGANIZATIONNAME = "Rafael Nobre";
 				TargetAttributes = {
 					66F3AD3818224E9700DBD35A = {
 						TestTargetID = 66F3AD1D18224E9700DBD35A;
@@ -369,13 +392,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				001E311F18C7BCCB003F946A /* RNExternModalSegue.m in Sources */,
+				003B639718EAF3B10061A041 /* RNPushOrReplaceSegue.m in Sources */,
 				0041FE7C18C6C44300720D02 /* main.m in Sources */,
 				0041FE7118C6C42300720D02 /* TabOneViewController.m in Sources */,
 				001E312018C7BCCB003F946A /* RNExternPushSegue.m in Sources */,
+				003B639E18EAF4CD0061A041 /* RNExternRedirect.m in Sources */,
 				0041FE7218C6C42300720D02 /* TabTwoViewController.m in Sources */,
 				0041FE7618C6C43600720D02 /* AppDelegate.m in Sources */,
 				001E312118C7BCCB003F946A /* UINavigationController+RNExternStoryboard.m in Sources */,
 				001E312218C7BCCB003F946A /* UIViewController+RNExternStoryboard.m in Sources */,
+				003B639A18EAF43D0061A041 /* RNExternPushOrReplaceSegue.m in Sources */,
 				008BC81318E4BF6C00F82674 /* UIStoryboard+DeviceSpecificStoryboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
