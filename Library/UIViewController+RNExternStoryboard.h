@@ -31,7 +31,8 @@
 
 @interface UIViewController (RNExternStoryboard)
 
-@property (strong, nonatomic) NSString *storyboardName;
-@property (strong, nonatomic) NSString *sceneIdentifier;
+@property (strong, nonatomic) IBInspectable NSString *storyboardName;
+@property (strong, nonatomic) IBInspectable NSString *sceneIdentifier;
+@property (strong, nonatomic) IBInspectable NSString *bundleId;
 
 @end

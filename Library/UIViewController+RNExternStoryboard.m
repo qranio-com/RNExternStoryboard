@@ -28,11 +28,12 @@
 //
 
 #import "UIViewController+RNExternStoryboard.h"
-#import <ObjcAssociatedObjectHelpers.h>
+#import "ObjcAssociatedObjectHelpers.h"
 
 @implementation UIViewController (RNExternStoryboard)
 
 SYNTHESIZE_ASC_OBJ(storyboardName, setStoryboardName);
 SYNTHESIZE_ASC_OBJ(sceneIdentifier, setSceneIdentifier);
+SYNTHESIZE_ASC_OBJ(bundleId, setBundleId);
 
 @end

@@ -27,14 +27,13 @@
 
 #import "RNExternRedirect.h"
 #import "UIViewController+RNExternStoryboard.h"
-#import "UIStoryboard+DeviceSpecificStoryboard.h"
 
 @implementation RNExternRedirect
 
 + (UIViewController*)redirectFromViewController:(UIViewController *)destination {
     NSAssert(destination.storyboardName, @"storyboardName is required");
     
-    UIStoryboard *storyboard = [UIStoryboard deviceSpecificStoryboardWithName:destination.storyboardName];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:destination.storyboardName bundle:destination.bundleId ? [NSBundle bundleWithIdentifier:destination.bundleId] : nil];
     return destination.sceneIdentifier
     ? [storyboard instantiateViewControllerWithIdentifier:destination.sceneIdentifier]
     : [storyboard instantiateInitialViewController];
