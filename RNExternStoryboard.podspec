@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "RNExternStoryboard"
-  s.version      = "2.0"
+  s.version      = "2.1"
   s.summary      = "Clean way to link view controllers with segues between multiple storyboards"
   
   s.description  = "Split your View Controller logic into multiple reusable Storyboards, seguing between them effortlessly with no additional code and no subclassing!"
